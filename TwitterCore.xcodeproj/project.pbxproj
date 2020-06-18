@@ -114,6 +114,7 @@
 		6CE57CC91AE068A300EA9C24 /* TWTRCoreOAuthSigning.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CE57CC71AE068A300EA9C24 /* TWTRCoreOAuthSigning.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6CE57CCA1AE068A300EA9C24 /* TWTRCoreOAuthSigning.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CE57CC71AE068A300EA9C24 /* TWTRCoreOAuthSigning.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6CE57CCB1AE068A300EA9C24 /* TWTRCoreOAuthSigning.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE57CC81AE068A300EA9C24 /* TWTRCoreOAuthSigning.m */; };
+		892215B9249B93EB0007FE9E /* libTwitterCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D5A92211AAA89730039EFCC /* libTwitterCore.a */; };
 		8983D16B249B725F006F5B85 /* TWTRURLSessionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DBAFACB91B71748B0065B9B2 /* TWTRURLSessionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D0AE5B01AC73F3B00884B45 /* TWTRUserSessionVerifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0AE5AE1AC73F3B00884B45 /* TWTRUserSessionVerifier.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		9D0AE5B11AC73F3B00884B45 /* TWTRUserSessionVerifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0AE5AE1AC73F3B00884B45 /* TWTRUserSessionVerifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -586,6 +587,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				892215B9249B93EB0007FE9E /* libTwitterCore.a in Frameworks */,
 				9D30C5AE1ACE5F2400D0B1FA /* CoreData.framework in Frameworks */,
 				9DF52DA01ABB6B1F004345D0 /* CoreGraphics.framework in Frameworks */,
 				9DF52D6F1ABA95C3004345D0 /* Security.framework in Frameworks */,
